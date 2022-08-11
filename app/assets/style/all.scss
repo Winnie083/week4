@@ -94,20 +94,20 @@ header, footer{
 @media(max-width: 767px) {
 	.menu{
 		flex-wrap: wrap;
+		width: 100%;
 	}
 	.menu li{
 		width: 50%;
 		border: 1px solid #fff;
 		margin:0;
-		padding-right: 62px;
-		padding-left: 62px;
-		padding-top: 12px;
-		padding-bottom: 12px;
 
 	}
 	.menu li a{
 		font-size: 16px;
 		line-height: 24px;
+		padding-right: 0;
+		padding-top: 12px;
+		padding-bottom: 12px;
 	}
 }
 
