@@ -1,0 +1,48 @@
+
+
+body {
+	font-family: "Noto Sans TC", "Roboto", sans-serif;
+	line-height: 1.5;
+  }
+
+img{
+  max-width: 100%;
+  height: auto;
+  vertial-align:middle;
+}
+
+
+*,*::before,*::after{
+	box-sizing: border-box;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+.text-medium {
+  font-weight: 500;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+.top-title{
+  font-size: 48px;
+  line-height: 72px;
+  padding-left: 16px;
+  border-left: 8px solid #9F1213;
+  margin-bottom: 32px;
+}
+
+.padding-1{
+  padding-top: 96px;
+  padding-bottom: 80px;
+}
